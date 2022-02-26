@@ -1,0 +1,159 @@
+﻿industry_id,industry_level,industry_parent_id,industry_name_eng,industry_name_vie,element_count
+0001,1,0,OIL & GAS ,Dầu Khí,27.0
+1000,1,0,BASIC MATERIALS ,Vật liệu cơ bản,176.0
+2000,1,0,INDUSTRIALS ,Công nghiệp,711.0
+3000,1,0,CONSUMER GOODS ,Hàng tiêu dùng,305.0
+4000,1,0,HEALTH CARE ,Y tế,63.0
+5000,1,0,CONSUMER SERVICES ,Dịch vụ tiêu dùng,139.0
+6000,1,0,TELECOMMUNICATIONS ,Viễn thông,10.0
+7000,1,0,UTILITIES ,Dịch vụ công cộng,143.0
+8000,1,0,FINANCIALS ,Tài chính,233.0
+9000,1,0,TECHNOLOGY ,Công nghệ,39.0
+0500,2,0001,Oil & Gas,Dầu khí,27.0
+1300,2,1000,Chemicals,Hóa chất,59.0
+1700,2,1000,Basic Resources,Tài nguyên,117.0
+2300,2,2000,Construction & Materials,Xây dựng & Vật liệu,398.0
+2700,2,2000,Industrial Goods & Services,Hàng hóa và dịch vụ công nghiệp,313.0
+3300,2,3000,Automobiles & Parts,Ôtô & linh kiện phụ tùng ,10.0
+3500,2,3000,Food & Beverage,Thực phẩm & Đồ uống,183.0
+3700,2,3000,Personal & Household Goods,Đồ dùng cá nhân và đồ gia dụng,112.0
+4500,2,4000,Health Care,Y tế,63.0
+5300,2,5000,Retail,Dịch vụ bán lẻ,60.0
+5500,2,5000,Media,Phương tiện truyền thông,34.0
+5700,2,5000,Travel & Leisure,Du lịch & Giải trí,45.0
+6500,2,6000,Telecommunications,Viễn thông,10.0
+7500,2,7000,Utilities,Dịch vụ tiện ích,143.0
+8300,2,8000,Banks,Ngân hàng,28.0
+8500,2,8000,Insurance,Bảo hiểm,12.0
+8600,2,8000,Real Estate,Bất động sản,132.0
+8700,2,8000,Financial Services,Dịch vụ tài chính,61.0
+9500,2,9000,Technology,Công nghệ,39.0
+0530,3,0500,Oil & Gas Producers,Sản xuất dầu khí,11.0
+0570,3,0500,"Oil Equipment, Services & Distribution","Dụng cụ, dịch vụ & Phân phối Dầu",16.0
+1350,3,1300,Chemicals,Hóa chất,59.0
+1730,3,1700,Forestry & Paper,Sản xuất giấy & Trồng rừng,20.0
+1750,3,1700,Industrial Metals,Kim loại công nghiệp,39.0
+1770,3,1700,Mining,Khai thác mỏ,58.0
+2350,3,2300,Construction & Materials,Xây dựng & Vật liệu,398.0
+2720,3,2700,General Industrials,Công nghiệp tổng hợp,40.0
+2730,3,2700,Electronic & Electrical Equipment,Dụng cụ điện & Điện tử,29.0
+2750,3,2700,Industrial Engineering,Công nghiệp cơ khí ,19.0
+2770,3,2700,Industrial Transportation,Giao thông công nghiệp,149.0
+2790,3,2700,Support Services,Dịch vụ hỗ trợ,76.0
+3350,3,3300,Automobiles & Parts,Ôtô & phụ tùng ôtô,10.0
+3530,3,3500,Beverages,Đồ uống,36.0
+3570,3,3500,Food Producers,Sản xuất thực phẩm,147.0
+3720,3,3700,Household Goods,Hàng gia dụng,39.0
+3740,3,3700,Leisure Goods,Hàng hóa giải trí,8.0
+3760,3,3700,Personal Goods,Hàng hóa cá nhân,60.0
+3780,3,3700,Tobacco,Thuốc lá,5.0
+4530,3,4500,Health Care Equipment & Services,Dụng cụ & dịch vụ y tế,10.0
+4570,3,4500,Pharmaceuticals & Biotechnology,Dược phẩm & công nghệ sinh học,53.0
+5330,3,5300,Food & Drug Retailers,Bán lẻ thực phẩm & thuốc,7.0
+5370,3,5300,General Retailers,Bán lẻ,53.0
+5550,3,5500,Media,Truyền thông,34.0
+5750,3,5700,Travel & Leisure,Du lịch & Giải trí,45.0
+6530,3,6500,Fixed Line Telecommunications,Viễn thông cố định,6.0
+6570,3,6500,Mobile Telecommunications,Viễn thông di động,4.0
+7530,3,7500,Electricity,Điện lực,58.0
+7570,3,7500,"Gas, Water & Multiutilities","Ga, nước & dịch vụ công cộng gia dụng",85.0
+8350,3,8300,Banks,Ngân hàng,28.0
+8530,3,8500,Nonlife Insurance,Bảo hiểm phi nhân thọ,12.0
+8630,3,8600,Real Estate Investment & Services,Dịch vụ Đầu tư Bất Động Sản,131.0
+8670,3,8600,Real Estate Investment Trusts,Quỹ đầu tư Bất Động Sản,1.0
+8770,3,8700,General Financial,Dịch vụ tài chính,50.0
+8980,3,8700,Equity Investment Instruments,Công cụ đầu tư cổ phần,11.0
+9530,3,9500,Software & Computer Services,Phần mềm & Dịch vụ máy tính,12.0
+9570,3,9500,Technology Hardware & Equipmen,Dụng cụ & công nghệ phần cứng,27.0
+0533,4,0530,Exploration & Production,Khai thác và sản xuất dầu khí ,3.0
+0537,4,0530,Integrated Oil & Gas,Dầu khí tổng hợp,8.0
+0573,4,0570,Oil Equipment & Services,Dịch vụ và Thiết bị dầu khí,16.0
+1353,4,1350,Commodity Chemicals,Hóa chất cơ bản,22.0
+1357,4,1350,Specialty Chemicals,Hóa chất đặc biệt,37.0
+1733,4,1730,Forestry,Chế phẩm từ gỗ,11.0
+1737,4,1730,Paper,Giấy,9.0
+1753,4,1750,Aluminum,Nhôm,2.0
+1755,4,1750,Nonferrous Metals,Kim loại màu,8.0
+1757,4,1750,Steel,Thép,29.0
+1771,4,1770,Coal,Than đá,15.0
+1775,4,1770,General Mining,Khai khoáng nói chung,42.0
+1779,4,1770,Platinum & Precious Metals,Bạch kim & Kim loại quý hiếm khác,1.0
+2353,4,2350,Building Materials & Fixtures,Vật liệu xây dựng,149.0
+2357,4,2350,Heavy Construction,Xây dựng công trình,249.0
+2723,4,2720,Containers & Packaging,Bao bì & đóng gói,33.0
+2727,4,2720,Diversified Industrials,Công nghiệp đa ngành,7.0
+2733,4,2730,Electrical Components & Equipment,Thiết bị điện,28.0
+2737,4,2730,Electronic Equipment,Thiết bị điện tử,1.0
+2753,4,2750,Commercial Vehicles & Trucks,Xe tải và phương tiện vận chuyển thương mại,5.0
+2757,4,2750,Industrial Machinery,Máy công nghiệp,14.0
+2771,4,2770,Delivery Services,Dịch vụ giao nhận,10.0
+2773,4,2770,Marine Transportation,Vận tải biển,38.0
+2775,4,2770,Railroads,Đường sắt,21.0
+2777,4,2770,Transportation Services,Dịch vụ vận tải,78.0
+2779,4,2770,Trucking,Vận tải xe tải,2.0
+2791,4,2790,Business Support Services,Dịch vụ hỗ trợ kinh doanh,14.0
+2793,4,2790,Business Training & Employment Agencies,Dịch vụ cung ứng lao động và đào tạo,12.0
+2797,4,2790,Industrial Suppliers,Cung ứng,8.0
+2799,4,2790,Waste & Disposal Services,Dịch vụ xử lý phế liệu phế thải,42.0
+3353,4,3350,Automobiles,Ôtô,4.0
+3355,4,3350,Auto Parts,Phụ tùng ô tô,2.0
+3357,4,3350,Tires,Săm lốp,4.0
+3533,4,3530,Brewers,Sản xuất bia,22.0
+3535,4,3530,Distillers & Vintners,"Rượu, đồ uống có cồn",4.0
+3537,4,3530,Soft Drinks,Nước ngọt,10.0
+3573,4,3570,Farming & Fishing,Nông sản và thủy hải sản,74.0
+3577,4,3570,Food Production,Sản xuất thực phẩm,73.0
+3722,4,3720,Durable Household Products,Các sản phẩm gia dụng lâu bền,7.0
+3724,4,3720,Nondurable Household Products,Sản phẩm gia dụng không lâu bền,5.0
+3726,4,3720,Furnishings,"Đồ đạc, nội thất",14.0
+3728,4,3720,Home Construction,"Xây dựng, chế tạo nhà ở",13.0
+3743,4,3740,Consumer Electronics,Đồ điện tử,6.0
+3745,4,3740,Recreational Products,"Thiết bị, đồ dùng phục vụ mục đích vui chơi giải trí",1.0
+3747,4,3740,Toys,Đồ chơi các loại,1.0
+3763,4,3760,Clothing & Accessories,"Đồ may mặc, trang sức, phụ kiện",56.0
+3765,4,3760,Footwear,Giầy dép,3.0
+3767,4,3760,Personal Products,Vật dụng cá nhân,1.0
+3785,4,3780,Tobacco,Thuốc lá,5.0
+4533,4,4530,Health Care Providers,Dịch vụ y tế,2.0
+4535,4,4530,Medical Equipment,Thiết bị y tế,6.0
+4537,4,4530,Medical Supplies,Vật dụng y tế,2.0
+4573,4,4570,Biotechnology,Sản phẩm sinh hóa,3.0
+4577,4,4570,Pharmaceuticals,Dược phẩm,50.0
+5333,4,5330,Drug Retailers,Bán lẻ dược phẩm,2.0
+5337,4,5330,Food Retailers & Wholesalers,Bán lẻ thực phẩm,5.0
+5373,4,5370,Broadline Retailers,Bán lẻ tổng hợp,8.0
+5375,4,5370,Home Improvement Retailers,Bán lẻ dụng cụ gia đình,4.0
+5377,4,5370,Specialized Consumer Services,Dịch vụ tiêu dùng chuyên dụng,7.0
+5379,4,5370,Specialty Retailers,Cửa hàng chuyên dụng,34.0
+5555,4,5550,Media Agencies,Các hãng truyền thông,6.0
+5557,4,5550,Publishing,Hoạt động xuất bản,28.0
+5751,4,5750,Airlines,Hàng không,2.0
+5752,4,5750,Gambling,Sòng bạc,1.0
+5753,4,5750,Hotels,Khách sạn,13.0
+5755,4,5750,Recreational Services,Dịch vụ vui chơi giải trí,5.0
+5757,4,5750,Restaurants & Bars,Nhà hàng & quầy bar,4.0
+5759,4,5750,Travel & Tourism,Du lịch,20.0
+6535,4,6530,Fixed Line Telecommunications,Dịch vụ viễn thông cố định,6.0
+6575,4,6570,Mobile Telecommunications,Dịch vụ viễn thông di động,4.0
+7535,4,7530,Electricity,Điện,57.0
+7537,4,7530,Alternative Electricity,Điện tái tạo,1.0
+7573,4,7570,Gas Distribution,Gas,15.0
+7575,4,7570,Multiutilities,Dịch vụ tiện ích tổng hợp,5.0
+7577,4,7570,Water,Nước,65.0
+8355,4,8350,Banks,Ngân hàng,28.0
+8532,4,8530,Full Line Insurance,Bảo hiểm đa ngành,8.0
+8536,4,8530,Property & Casualty Insurance,Bảo hiểm tài sản & thương vong,3.0
+8538,4,8530,Reinsurance,Tái bảo hiểm,1.0
+8633,4,8630,Real Estate Holding & Development,Đầu tư và phát triển bất động sản,111.0
+8637,4,8630,Real Estate Services,Dịch vụ bất động sản,20.0
+8674,4,8670,Diversified REITs ,Quỹ tín thác bất động sản đa dạng,1.0
+8771,4,8770,Asset Managers,Quản lý tài sản,1.0
+8773,4,8770,Consumer Finance,Tài chính cá nhân,1.0
+8775,4,8770,Specialty Finance,Tài chính chuyên biệt,6.0
+8777,4,8770,Investment Services,Dịch vụ đầu tư,42.0
+8985,4,8980,Equity Investment Instruments,Công cụ đầu tư cổ phần,11.0
+9533,4,9530,Computer Services,Dịch vụ máy tính,5.0
+9537,4,9530,Software,Phần mềm,7.0
+9572,4,9570,Computer Hardware,Phần cứng,2.0
+9574,4,9570,Electronic Office Equipmen,Thiết bị điện tử văn phòng,2.0
+9578,4,9570,Telecommunications Equipmen,Thiết bị viễn thông,23.0
